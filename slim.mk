@@ -1,18 +1,18 @@
 # Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/cdma.mk)
+$(call inherit-product, vendor/slim/config/cdma.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := n5110
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/slim/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/n5110/full_n5110.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := n5110
-PRODUCT_NAME := cm_n5110
+PRODUCT_NAME := slim_n5110
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-N5110
 PRODUCT_MANUFACTURER := samsung
