@@ -1,18 +1,18 @@
 [
     {
-        "repository": "tejkkarani/android_device_samsung_smdk4412-common",
+        "repository": "tejkkarani/device_samsung_smdk4412-common",
         "target_path": "device/samsung/smdk4412-common"
-        "branch": "cm-11.0"
+        "branch": "kk4.4"
     },
     {
-        "repository": "tejkkarani/android_device_samsung_kona-common",
+        "repository": "tejkkarani/device_samsung_kona-common",
         "target_path": "device/samsung/kona-common"
-        "branch": "cm-11.0"
+        "branch": "kk4.4"
     },
     {
-        "repository": "CyanogenMod/android_kernel_samsung_smdk4412",
+        "repository": "tejkkarani/kernel_samsung_smdk4412",
         "target_path": "kernel/samsung/smdk4412"
-        "branch": "cm-11.0"
+        "branch": "kk4.4"
     },
     {
         "repository": "CyanogenMod/android_packages_apps_SamsungServiceMode",
